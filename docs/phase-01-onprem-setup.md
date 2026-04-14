@@ -18,8 +18,14 @@ Servers:
 | Setting | Value               |
 | ------- | ------------------- |
 | Name    | DC01                |
-| OS      | Windows Server 2022 |
-| RAM     | 4 GB                |
+| OS      | Windows Server 2025 |
+| RAM     | 2 GB                |
 | CPU     | 2 cores             |
 | Disk    | 50 GB               |
 | Network | Host-only           |
+
+`IP: 192.168.10.10`
+`Subnet: 255.255.255.0`
+`DNS: 192.168.10.10`
+`Gateway: (blank)`
+- Attached second network adapter in NAT configuration to allow connection to the internet.
