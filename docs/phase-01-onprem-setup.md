@@ -45,3 +45,22 @@ Servers:
 
 - Created groups and added users accordingly to the group. 
 - admin.it was added to Administrators group that is built in to allow admin control on client machine
+
+
+# Files
+- Temporarily created a C:/Shares folder
+- Two folder: Finance and HR
+- Permissions set for Finance group users to access the Finance folder and the same for HR group users to access the HR folder.
+
+
+## Windows Client Configuration
+| Setting | Value               |
+| ------- | ------------------- |
+| Name    | CL01                |
+| OS      | Windows 11  |
+| RAM     | 4 GB                |
+| CPU     | 2 cores             |
+| Disk    | 50 GB               |
+| Network | Host-only           |
+
+- Attached Network adapter in the same way as the DC01. 
