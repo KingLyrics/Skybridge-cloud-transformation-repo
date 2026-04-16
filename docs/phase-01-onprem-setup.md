@@ -116,7 +116,7 @@ This demonstrates **Role-Based Access Control (RBAC)** and secure file sharing p
 
 ### Network Configuration
 
-* IP Address: 192.168.10.30
+* IP Address: 192.168.10.20
 * DNS Server: 192.168.10.10
 
 CL01 was successfully joined to the **skybridge.local** domain and authenticated using domain credentials.
@@ -159,7 +159,12 @@ Folders not authorized are not visible, demonstrating secure access enforcement.
 ### Configuration Tasks
 
 * Set hostname to FS01
+* Set static IP address:
+    * IP address: 192.168.10.30
+    * Gateway: 192.168.10.10
+    * Ping 192.168.10.10 successful
 * Installed OpenSSH Server
+* Enabled ssh and accessed file server from Client machine
 * Installed Samba (for future file services)
 
 ---
