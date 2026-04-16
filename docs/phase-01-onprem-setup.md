@@ -187,4 +187,5 @@ Folders not authorized are not visible, demonstrating secure access enforcement.
 
 ---
 
-
+## Snapshots
+Snapshots have been taken for disaster recovery
